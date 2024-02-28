@@ -10,3 +10,30 @@ In this challenge, i build a predictive model that answers the question: “what
 
 ![Local Image](./the-sinking-of-the-rms-titanic.jpg)
 
+# Data Overview
+The data has been split into two groups:
+
+training set (train.csv) test set (test.csv)
+
+The training set was used to build the machine learning model. For the training set, the outcome (also known as the “ground truth”) was provided for each passenger. Feature engineering was also used to create new features.
+
+The test set was used to see how well the model performed on unseen data. For the test set, the ground truth for each passenger was not provided. For each passenger in the test set, the trained model was used to predict whether or not they survived the sinking of the Titanic.
+
+The labels of the test set are in (gender_submission.csv) .
+
+The model code in (titanic_ANN_comp.ipunb) file .
+
+
+# Data Dictionary
+
+| Variable  | Definition | Key | 
+| ------------- | ------------- |  ------------- |
+| Survival  | Survival  |  0 = No, 1 = Yes  |
+| pclass  | Ticket Class  |  1 = 1st, 2 = 2nd, 3 = 3rd  |
+| sex  | sex of passenger male / female  |    |
+| Age  | Age in years  |  Content Cell  |
+| sibsp  | number of siblings / spouses aboard the Titanic	  |    |
+| Parch  | number of parents / children aboard the Titanic  |     |
+| Fare  | Passenger fare  |    |
+| Cabin  | Cabin Number  |   |
+| Embarked  | Port of Embarkation  |  C=Cherbourg/ Q=Queenstown/ S=Southampton  |
