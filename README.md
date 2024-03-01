@@ -6,7 +6,7 @@ On April 15, 1912, during her maiden voyage, the widely considered “unsinkable
 
 While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
 
-In this challenge, i build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+In this challenge, i build a predictive models that answer the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
 
 ![Local Image](./the-sinking-of-the-rms-titanic.jpg)
 
@@ -23,6 +23,8 @@ The labels of the test set are in (gender_submission.csv) .
 
 The model code in (titanic_comp_ANN_Reg.ipynb) file .
 
+the output of ANN model : (output_ANN.csv) 
+the output of Logistic Regression mode : (output_reg.csv)
 
 # Data Dictionary
 
