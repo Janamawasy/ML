@@ -23,8 +23,9 @@ The labels of the test set are in (gender_submission.csv) .
 
 The model code in (titanic_comp_ANN_Reg.ipynb) file .
 
-the output of ANN model : (output_ANN.csv) 
-the output of Logistic Regression mode : (output_reg.csv)
+the output of ANN model : (output_ANN.csv) .
+
+the output of Logistic Regression mode : (output_reg.csv).
 
 # Data Dictionary
 
