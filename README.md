@@ -21,7 +21,7 @@ The test set was used to see how well the model performed on unseen data. For th
 
 The labels of the test set are in (gender_submission.csv) .
 
-The model code in (titanic_ANN_comp.ipunb) file .
+The model code in (titanic_comp_ANN_Reg.ipynb) file .
 
 
 # Data Dictionary
